@@ -1,3 +1,6 @@
+---
+dg-publish: false
+---
 The variance of a population is the mean average of the squares of the [[Deviation||deviation]] for all samples.
 $$
 \begin{equation*}

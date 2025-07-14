@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 Having these objects as Python allows you to edit them before passing them to the `run_mode()` method. It's a bit annoying to do it, but let's say you have to increase everything by 10% or something, you can overwrite it by calling the function listed in the `.yaml` file and saving it as the property name. For example, let's say the `.yaml` file doesn't specify a seed for the output noise, but we need a reproducible scenario under certain noise conditions. We could do the following:
 ```python
 pipeline = config.pipeline
